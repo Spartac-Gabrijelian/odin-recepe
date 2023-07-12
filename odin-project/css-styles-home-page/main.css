@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.animated-gif-container {
+  display: flex;
+  justify-content: center;
+}
+
+.animated-gif {
+  height: 350px;
+  width: 600px;
+  object-fit:cover;
+  border: solid 3px rgb(255, 255, 255);
+  border-radius: 50px;
+}

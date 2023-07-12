@@ -1,0 +1,61 @@
+.header-container {
+  position: relative;
+}
+
+.header-title {
+  border-bottom: 5px solid white ;      
+  font-family: Kablammo, arial;
+  color: red;
+  font-size: 80px;
+  background-image: url(background/maxican\ table.jpg);
+  text-align: center;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.80) ;
+}
+
+.header-home-icon-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  border: solid 3px white;
+  cursor: pointer;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.60);
+}
+
+.recipe-header-home-icon {
+  height: 40px;
+  position: relative;
+}
+
+.header-home-icon-container:hover .recipe-header-home-icon {
+  height: 50px;
+  transition: 0.15s;
+}
+
+.Home-icon-text {
+  color: black;
+  margin-top: -10px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.80) ;
+}
+
+.header-home-icon-container:hover {
+  border-radius: 10px;
+  transition: 0.2s;
+  height: 70px;
+  width: 70px;
+}
+
+.header-home-icon-container:hover .Home-icon-text {
+  opacity: 1;
+  transition: 0.3s;
+}
